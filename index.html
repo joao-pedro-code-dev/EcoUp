@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8f0">
+  <meta name="description" content="EcoUp transforma reciclagem em recompensa com uma experiência conectada a uma lixeira inteligente.">
+  <title>EcoUp — Recicle. Pontue. Transforme.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="announcement">
+    <span class="announcement-dot" aria-hidden="true"></span>
+    Uma atitude de cada vez. Um planeta de cada vez.
+    <a href="#como-funciona">Conheça o movimento <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="EcoUp, página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" role="img">
+            <path d="M22 35V19" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>
+            <path d="M22 22C11 23 7 16 8 8c9 0 15 4 14 14Z" fill="#a9db72"/>
+            <path d="M22 17C22 8 29 4 37 5c0 9-5 15-15 16Z" fill="#3ca66b"/>
+            <path d="M15 31c-5-1-8-5-8-10 7 0 12 4 12 10" fill="none" stroke="#3ca66b" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M29 30c5-1 8-5 8-10-7 0-12 4-12 10" fill="none" stroke="#3ca66b" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-word">eco<span>up</span><small>RECICLAGEM INTELIGENTE</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#materiais">Reciclagem</a>
+        <a href="#recompensas">Recompensas</a>
+        <a href="#lixeira">A lixeira</a>
+        <a class="nav-cta" href="#simulador">Experimente <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-space" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-icon">✳</span> O futuro é circular</div>
+          <h1>Seu lixo vale<br>mais do que <span class="highlight">você imagina.</span></h1>
+          <p class="hero-lead">Com a EcoUp, descartar do jeito certo fica mais fácil — e ainda rende recompensas. Tecnologia a favor de hábitos que fazem bem para todo mundo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#simulador">Começar a reciclar <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#como-funciona"><span class="play-icon" aria-hidden="true">▶</span> Entenda em 1 minuto</a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>🌱</span><span>♻️</span><span>🌎</span></div>
+            <div><strong>Pequenas ações, grande impacto.</strong><small>Seu próximo descarte pode ser o começo.</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Ilustração conceitual da lixeira inteligente EcoUp">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="visual-label label-top"><span class="live-pulse"></span><div><strong>EcoUp conectada</strong><small>Experiência inteligente</small></div><span class="signal-icon" aria-hidden="true">⌁</span></div>
+          <div class="plant plant-left" aria-hidden="true"><i></i><i></i><i></i><b></b></div>
+          <div class="bin-shadow"></div>
+          <div class="smart-bin">
+            <div class="bin-lid"><span></span></div>
+            <div class="bin-body">
+              <div class="bin-screen"><span class="screen-dot"></span><span>EC•UP</span><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M13 4 6 8l4 2M6 8l2 6M15 4l7 4-4 2M22 8l-2 6M10 17l-1 6 7-1M9 23l-5-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="bin-front-mark"><span class="leaf-symbol">↗</span><strong>eco<span>up</span></strong><small>SMART RECYCLING</small></div>
+              <div class="bin-indicator"><span></span><span></span><span></span></div>
+            </div>
+            <div class="bin-base"></div>
+          </div>
+          <div class="floating-card reward-float"><div class="floating-icon gold">✦</div><div><small>DESCARTE SIMULADO</small><strong>+25 EcoPoints</strong><span>Plástico identificado</span></div><span class="float-check">✓</span></div>
+          <div class="floating-card eco-float"><div class="floating-icon green">♻</div><div><small>SEU IMPACTO</small><strong>Uma escolha melhor</strong><span>Começa com você</span></div></div>
+          <div class="decor-leaf leaf-a" aria-hidden="true">✦</div><div class="decor-leaf leaf-b" aria-hidden="true">✳</div>
+          <div class="visual-caption">Ilustração conceitual do produto EcoUp</div>
+        </div>
+      </div>
+      <div class="container trust-row">
+        <span class="trust-label">UM CICLO MAIS INTELIGENTE</span>
+        <div class="trust-item"><span class="mini-icon">⌁</span> Tecnologia acessível</div>
+        <div class="trust-item"><span class="mini-icon">♻</span> Descarte consciente</div>
+        <div class="trust-item"><span class="mini-icon">✦</span> Recompensas por atitude</div>
+      </div>
+    </section>
+
+    <section class="section-space how-section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading centered-heading">
+          <span class="eyebrow">SEM COMPLICAÇÃO</span>
+          <h2>Reciclar bem pode ser <span class="highlight">simples assim.</span></h2>
+          <p>A EcoUp aproxima tecnologia e sustentabilidade para transformar uma tarefa cotidiana em uma experiência que vale a pena.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><div class="step-top"><span class="step-number">01</span><span class="step-art art-scan">⌁</span></div><h3>Identifique</h3><p>A lixeira inteligente foi pensada para reconhecer ou orientar sobre o tipo de resíduo descartado.</p><span class="step-link">Tecnologia que orienta <span>↗</span></span></article>
+          <article class="step-card"><div class="step-top"><span class="step-number">02</span><span class="step-art art-sort">♻</span></div><h3>Descarte certo</h3><p>Siga as orientações de separação e ajude cada material a seguir para o destino adequado.</p><span class="step-link">Um hábito melhor <span>↗</span></span></article>
+          <article class="step-card"><div class="step-top"><span class="step-number">03</span><span class="step-art art-reward">✦</span></div><h3>Ganhe pontos</h3><p>Na experiência EcoUp, cada descarte válido pode gerar EcoPoints para trocar por benefícios.</p><span class="step-link">Seu esforço tem valor <span>↗</span></span></article>
+        </div>
+        <p class="note-line"><span aria-hidden="true">ⓘ</span> A identificação automática e a validação do descarte dependem da implementação do hardware e das regras do sistema.</p>
+      </div>
+    </section>
+
+    <section class="section-space simulator-section" id="simulador">
+      <div class="container simulator-grid">
+        <div class="simulator-copy">
+          <span class="eyebrow eyebrow-light">SUA ATITUDE, SEUS PONTOS</span>
+          <h2>Vamos transformar<br>um descarte em <span>impacto?</span></h2>
+          <p>Experimente uma prévia de como os EcoPoints podem funcionar. Escolha um material, simule um descarte e acompanhe seu saldo.</p>
+          <div class="simulator-perks"><div><span>✓</span> Fácil de usar</div><div><span>✓</span> Pontos acumulativos nesta demonstração</div><div><span>✓</span> Recompensas para explorar</div></div>
+          <div class="demo-disclaimer">DEMO INTERATIVA · DADOS SALVOS NESTE NAVEGADOR</div>
+        </div>
+        <div class="points-panel">
+          <div class="panel-top"><div><span class="panel-kicker">SEU PAINEL ECOUP</span><h3>Olá, pessoa consciente! <span aria-hidden="true">🌿</span></h3></div><div class="demo-badge"><span></span> Modo demonstração</div></div>
+          <div class="points-balance"><div><span>SEU SALDO</span><div class="points-number"><strong id="points-total">0</strong><small>EcoPoints</small></div><p id="next-reward-text">Comece a reciclar para acumular pontos.</p></div><div class="points-medal" aria-hidden="true"><span>✦</span><small>ECO<br>REWARD</small></div></div>
+          <div class="progress-track" aria-label="Progresso para a primeira recompensa"><div id="reward-progress" class="progress-fill" style="width:0%"></div></div>
+          <div class="progress-caption"><span>Progresso da próxima recompensa</span><strong id="progress-percent">0%</strong></div>
+          <div class="divider"></div>
+          <label class="material-label" for="material-select">O que você vai descartar?</label>
+          <div class="material-select-wrap"><span class="select-material-icon" id="selected-material-icon" aria-hidden="true">🧴</span><select id="material-select"><option value="plastic">Plástico limpo <span>+25 pts</span></option><option value="paper">Papel e papelão <span>+10 pts</span></option><option value="metal">Metal / lata <span>+35 pts</span></option><option value="glass">Vidro <span>+30 pts</span></option><option value="e-waste">Eletrônico pequeno <span>+50 pts</span></option></select><span class="select-chevron" aria-hidden="true">⌄</span></div>
+          <div class="material-hint" id="material-hint">Esvazie e, quando possível, enxágue a embalagem. Confira as regras da coleta local.</div>
+          <button class="button button-primary button-full" id="simulate-disposal" type="button">Simular descarte correto <span aria-hidden="true">↗</span></button>
+          <div class="simulation-feedback" id="simulation-feedback" role="status" aria-live="polite">Escolha um material e faça sua primeira simulação.</div>
+          <div class="panel-footer-stats"><div><strong id="items-count">0</strong><span>itens simulados</span></div><div><strong id="rewards-count">0</strong><span>recompensas resgatadas</span></div><button type="button" class="reset-demo" id="reset-demo">Reiniciar demo</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space materials-section" id="materiais">
+      <div class="container">
+        <div class="section-heading heading-row"><div><span class="eyebrow">DESCARTE COM CONSCIÊNCIA</span><h2>Cada material tem<br>seu <span class="highlight">caminho.</span></h2></div><p>Separar corretamente é o primeiro passo para que os materiais possam voltar ao ciclo produtivo. Na dúvida, consulte a coleta seletiva da sua região.</p></div>
+        <div class="materials-grid">
+          <article class="material-card material-paper"><div class="material-emoji">📦</div><span class="material-tag">RECICLÁVEL</span><h3>Papel e papelão</h3><p>Caixas e folhas limpas, sem excesso de gordura ou resíduos.</p><div class="material-footer"><span>Na demo</span><strong>+10 pts</strong></div></article>
+          <article class="material-card material-plastic"><div class="material-emoji">🧴</div><span class="material-tag">RECICLÁVEL</span><h3>Plástico</h3><p>Embalagens vazias e limpas. Reduza o volume sempre que possível.</p><div class="material-footer"><span>Na demo</span><strong>+25 pts</strong></div></article>
+          <article class="material-card material-metal"><div class="material-emoji">🥫</div><span class="material-tag">RECICLÁVEL</span><h3>Metal</h3><p>Latas e itens metálicos aceitos pela coleta local, sem conteúdo.</p><div class="material-footer"><span>Na demo</span><strong>+35 pts</strong></div></article>
+          <article class="material-card material-glass"><div class="material-emoji">🍾</div><span class="material-tag">CUIDADO AO DESCARTAR</span><h3>Vidro</h3><p>Separe com cuidado e embale cacos para proteger quem faz a coleta.</p><div class="material-footer"><span>Na demo</span><strong>+30 pts</strong></div></article>
+        </div>
+        <div class="materials-footnote"><span class="footnote-icon">!</span><p><strong>Atenção:</strong> pilhas, baterias, eletrônicos, lâmpadas e resíduos perigosos costumam exigir pontos de entrega específicos. Não descarte esses itens em lixeiras comuns.</p></div>
+      </div>
+    </section>
+
+    <section class="section-space reward-section" id="recompensas">
+      <div class="container">
+        <div class="section-heading heading-row reward-heading"><div><span class="eyebrow">PONTOS QUE VIRAM POSSIBILIDADES</span><h2>Recicle hoje.<br><span class="highlight">Ganhe amanhã.</span></h2></div><p>Imagine trocar seus EcoPoints por vantagens de parceiros locais, experiências e produtos sustentáveis.</p></div>
+        <div class="rewards-grid">
+          <article class="reward-card reward-coffee"><div class="reward-illustration coffee-art" aria-hidden="true"><span class="sun-disc"></span><span class="cup">☕</span><span class="spark spark1">✦</span><span class="spark spark2">✳</span></div><div class="reward-info"><span class="reward-type">PAUSA CONSCIENTE</span><h3>Café parceiro</h3><p>Uma pausa gostosa para celebrar boas escolhas.</p><div class="reward-bottom"><span class="reward-cost">✦ 100 pts</span><button class="redeem-button" data-cost="100" data-name="Café parceiro" type="button">Resgatar <span>↗</span></button></div></div></article>
+          <article class="reward-card reward-bike"><div class="reward-illustration bike-art" aria-hidden="true"><span class="bike-wheel wheel1"></span><span class="bike-wheel wheel2"></span><span class="bike-frame"></span><span class="bike-seat"></span><span class="spark spark3">✦</span></div><div class="reward-info"><span class="reward-type">MOBILIDADE VERDE</span><h3>Desconto sustentável</h3><p>Benefícios em marcas e comércios parceiros.</p><div class="reward-bottom"><span class="reward-cost">✦ 250 pts</span><button class="redeem-button" data-cost="250" data-name="Desconto sustentável" type="button">Resgatar <span>↗</span></button></div></div></article>
+          <article class="reward-card reward-plant"><div class="reward-illustration plant-art" aria-hidden="true"><span class="pot">▰</span><span class="stem"></span><span class="plant-leaf leaf1"></span><span class="plant-leaf leaf2"></span><span class="plant-leaf leaf3"></span><span class="plant-leaf leaf4"></span><span class="spark spark4">✦</span></div><div class="reward-info"><span class="reward-type">CRESCIMENTO NATURAL</span><h3>Uma nova plantinha</h3><p>Leve um símbolo vivo do seu impacto positivo.</p><div class="reward-bottom"><span class="reward-cost">✦ 500 pts</span><button class="redeem-button" data-cost="500" data-name="Uma nova plantinha" type="button">Resgatar <span>↗</span></button></div></div></article>
+        </div>
+        <p class="reward-note">Recompensas ilustrativas para demonstração. Disponibilidade, parceiros e regras de resgate seriam definidos na versão real do EcoUp.</p>
+      </div>
+    </section>
+
+    <section class="section-space product-section" id="lixeira">
+      <div class="container product-grid">
+        <div class="product-visual"><div class="product-blob"></div><div class="product-mini-bin"><div class="mini-lid"></div><div class="mini-body"><div class="mini-screen"><span>EC•UP</span><small>READY TO RECYCLE</small><b>♻</b></div><div class="mini-logo">eco<span>up</span></div></div><div class="mini-bottom"></div></div><div class="product-sticker sticker-one">♻ <span>Descarte inteligente</span></div><div class="product-sticker sticker-two">✦ <span>Recompensas digitais</span></div></div>
+        <div class="product-copy"><span class="eyebrow">MAIS QUE UMA LIXEIRA</span><h2>Conheça uma nova forma de cuidar do <span class="highlight">nosso mundo.</span></h2><p>A EcoUp une um produto físico — a lixeira inteligente — a uma experiência digital que orienta, incentiva e ajuda a acompanhar hábitos de reciclagem.</p><div class="feature-list"><div><span class="feature-icon">⌁</span><div><strong>Experiência conectada</strong><p>Uma interface pensada para tornar a jornada simples e acessível.</p></div></div><div><span class="feature-icon">✦</span><div><strong>Incentivo positivo</strong><p>Gamificação que transforma pequenas atitudes em motivação.</p></div></div><div><span class="feature-icon">↗</span><div><strong>Impacto em construção</strong><p>Base para acompanhar descartes e evoluir com dados validados.</p></div></div></div><a class="button button-dark" href="#simulador">Testar a experiência <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-inner"><div class="cta-decoration" aria-hidden="true">✳</div><div><span class="eyebrow eyebrow-light">O FUTURO NÃO SE RECICLA SOZINHO</span><h2>O próximo passo<br>começa com <span>você.</span></h2><p>Uma escolha mais consciente hoje abre espaço para um mundo melhor amanhã.</p></div><a class="button button-white" href="#simulador">Fazer minha primeira simulação <span aria-hidden="true">↗</span></a><span class="cta-leaf leaf-cta-one" aria-hidden="true">✦</span><span class="cta-leaf leaf-cta-two" aria-hidden="true">✳</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 35V19" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><path d="M22 22C11 23 7 16 8 8c9 0 15 4 14 14Z" fill="#a9db72"/><path d="M22 17C22 8 29 4 37 5c0 9-5 15-15 16Z" fill="#3ca66b"/><path d="M15 31c-5-1-8-5-8-10 7 0 12 4 12 10" fill="none" stroke="#3ca66b" stroke-width="2.5" stroke-linecap="round"/><path d="M29 30c5-1 8-5 8-10-7 0-12 4-12 10" fill="none" stroke="#3ca66b" stroke-width="2.5" stroke-linecap="round"/></svg></span><span class="brand-word">eco<span>up</span><small>RECICLAGEM INTELIGENTE</small></span></a><p>Uma ideia que transforma<br>descarte em oportunidade.</p><div class="footer-links"><a href="#como-funciona">Como funciona</a><a href="#materiais">Reciclagem</a><a href="#recompensas">Recompensas</a><a href="#lixeira">O produto</a></div></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> EcoUp · Projeto conceitual</span><span>Feito para um futuro mais circular <span class="footer-heart">♥</span></span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"><span class="toast-mark">✓</span><span id="toast-message">Ação concluída.</span><button id="toast-close" type="button" aria-label="Fechar aviso">×</button></div>
+  <dialog class="confirm-dialog" id="reset-dialog"><div class="dialog-mark">↺</div><h3>Reiniciar demonstração?</h3><p>Seu saldo, itens e recompensas desta demonstração voltarão a zero neste navegador.</p><div class="dialog-actions"><button class="button button-quiet" id="cancel-reset" type="button">Cancelar</button><button class="button button-primary" id="confirm-reset" type="button">Reiniciar</button></div></dialog>
+</body>
+</html>
